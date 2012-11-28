@@ -1,4 +1,0 @@
-F:\Project\Indexr\Indexr.Core\bin\Debug\Indexr.Core.dll
-F:\Project\Indexr\Indexr.Core\bin\Debug\Indexr.Core.pdb
-F:\Project\Indexr\Indexr.Core\obj\Debug\Indexr.Core.dll
-F:\Project\Indexr\Indexr.Core\obj\Debug\Indexr.Core.pdb

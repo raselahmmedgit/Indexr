@@ -1,8 +1,0 @@
-<Modules>
-  <Module PersistentId="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF" ModuleId="Indexr.Data" />
-  <Module PersistentId="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064" ModuleId="Indexr.Domain" />
-  <Module PersistentId="D5EBE940-B1BC-4F34-9431-52A786A29902" ModuleId="Indexr.Service" />
-  <Module PersistentId="26D169C2-28B3-4933-8A65-3C01CF187894" ModuleId="Indexr.Core" />
-  <Module PersistentId="A842035A-8640-4A9E-AE26-2D24489D763A" ModuleId="Indexr.Web" />
-  <Module PersistentId="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="EntityFramework" />
-</Modules>

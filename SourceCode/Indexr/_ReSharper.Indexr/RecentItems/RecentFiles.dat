@@ -1,0 +1,63 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:Disposable.cs" caret="401" fromTop="11" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IDatabaseFactory.cs" caret="0" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IUnitOfWork.cs" caret="0" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:UnitOfWork.cs" caret="570" fromTop="12" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:UserRepository.cs" caret="0" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:RoleRepository.cs" caret="0" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:ProfileRepository.cs" caret="0" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:RepositoryBase.cs" caret="354" fromTop="8" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IRepositoryBase.cs" caret="0" fromTop="0" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Base/f:IGeneric.cs" caret="337" fromTop="13" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IProfileService.cs" caret="262" fromTop="11" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:ProfileService.cs" caret="1669" fromTop="16" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:UserService.cs" caret="734" fromTop="10" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IUserService.cs" caret="389" fromTop="8" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:ContactInfoService.cs" caret="2096" fromTop="18" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:RoleService.cs" caret="158" fromTop="2" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IRoleService.cs" caret="138" fromTop="6" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:IContactInfoService.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:AuthConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:BundleConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:FilterConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:RouteConfig.cs" caret="408" fromTop="10" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:WebApiConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Global.asax.cs" caret="360" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/f:Web.config" caret="1195" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Web.config" caret="3046" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:BootStrapper.cs" caret="504" fromTop="8" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/f:AppDbContext.cs" caret="1961" fromTop="0" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Entities/d:Security/f:User.cs" caret="161" fromTop="6" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Entities/d:Security/f:Role.cs" caret="161" fromTop="6" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Entities/d:Security/f:Profile.cs" caret="161" fromTop="6" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IUnitOfWork.cs" caret="113" fromTop="5" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IDatabaseFactory.cs" caret="113" fromTop="5" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Entities/d:Index/f:ContactInfo.cs" caret="288" fromTop="11" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IRepositoryBase.cs" caret="493" fromTop="14" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:RoleRepository.cs" caret="365" fromTop="10" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:ProfileRepository.cs" caret="135" fromTop="6" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:UnitOfWork.cs" caret="335" fromTop="12" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Index/f:ContactInfoRepository.cs" caret="135" fromTop="3" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:UserRepository.cs" caret="838" fromTop="13" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:IContactInfoService.cs" caret="226" fromTop="4" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:RepositoryBase.cs" caret="1109" fromTop="17" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:DatabaseFactory.cs" caret="366" fromTop="9" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:Disposable.cs" caret="401" fromTop="11" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Base/f:IGeneric.cs" caret="153" fromTop="7" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:ContactInfoService.cs" caret="2235" fromTop="8" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IProfileService.cs" caret="262" fromTop="11" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:ProfileService.cs" caret="1803" fromTop="13" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IUserService.cs" caret="466" fromTop="11" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:UserService.cs" caret="1484" fromTop="10" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IRoleService.cs" caret="138" fromTop="6" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:RoleService.cs" caret="158" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Global.asax.cs" caret="851" fromTop="11" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:BootStrapper.cs" caret="2540" fromTop="13" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/f:AppDbContext.cs" caret="1760" fromTop="6" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Web.config" caret="3046" fromTop="5" />
+  </RecentEdits>
+</RecentFiles>

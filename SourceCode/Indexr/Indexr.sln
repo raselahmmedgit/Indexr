@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexr.Web", "Indexr.Web\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexr.Web.Tests", "Indexr.Web.Tests\Indexr.Web.Tests.csproj", "{1DD9A4E4-60DA-429C-ACCF-B22EF720D114}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexr.DomainView", "Indexr.DomainView\Indexr.DomainView.csproj", "{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{1DD9A4E4-60DA-429C-ACCF-B22EF720D114}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DD9A4E4-60DA-429C-ACCF-B22EF720D114}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DD9A4E4-60DA-429C-ACCF-B22EF720D114}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

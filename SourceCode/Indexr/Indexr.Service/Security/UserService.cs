@@ -1,4 +1,19 @@
-﻿using System;
+﻿/****************** Copyright Notice *****************
+ 
+This code is licensed under Microsoft Public License (Ms-PL). 
+You are free to use, modify and distribute any portion of this code. 
+The only requirement to do that, you need to keep the developer name, as provided below to recognize and encourage original work:
+
+=======================================================
+   
+Designed and Implemented By:
+Rasel Ahmmed
+Software Engineer, I Like .NET
+Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About Me: http://springsolution.net/about-me/
+   
+*******************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,36 +73,36 @@ namespace Indexr.Service
 
         #region Create Method
 
-        public void Create(User user)
+        public int Create(User user)
         {
             _iUserRepository.Insert(user);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Update Method
 
-        public void Update(User user)
+        public int Update(User user)
         {
             _iUserRepository.Update(user);
-            Save();
+            return Save();
         }
 
-        public void AddUserToRole(string userName, List<string> roleNames)
+        public int AddUserToRole(string userName, List<string> roleNames)
         {
             _iUserRepository.AssignRole(userName, roleNames);
-            Save();
+            return Save();
         }
 
-        //public void ChangeUserLogInStatus(User user, bool inout)
+        //public int ChangeUserLogInStatus(User user, bool inout)
         //{
         //    User userDb = _iUserRepository.GetById(user.UserName);
         //    if (userDb != null)
         //    {
         //        userDb.IsLoggedIn = inout;
         //        _iUserRepository.Update(userDb);
-        //        Save();
+        //        return Save();
         //    }
         //}
 
@@ -95,20 +110,20 @@ namespace Indexr.Service
 
         #region Delete Method
 
-        public void Delete(User user)
+        public int Delete(User user)
         {
             var deleteUser = GetUser(user.UserName);
             _iUserRepository.Delete(deleteUser);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Save By Commit
 
-        public void Save()
+        public int Save()
         {
-            _iUnitOfWork.Commit();
+            return _iUnitOfWork.Commit();
         }
 
         #endregion

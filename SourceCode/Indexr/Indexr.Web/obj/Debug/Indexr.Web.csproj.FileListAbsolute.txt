@@ -1,3 +1,4 @@
+F:\Project\Indexr\Indexr.Web\obj\Debug\Indexr.Web.csprojResolveAssemblyReference.cache
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Web.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Web.pdb
 F:\Project\Indexr\Indexr.Web\bin\Altairis.Web.Security.dll
@@ -16,6 +17,7 @@ F:\Project\Indexr\Indexr.Web\bin\EntityFramework.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Core.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Data.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Domain.dll
+F:\Project\Indexr\Indexr.Web\bin\Indexr.DomainView.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Service.dll
 F:\Project\Indexr\Indexr.Web\bin\Microsoft.Web.Infrastructure.dll
 F:\Project\Indexr\Indexr.Web\bin\Microsoft.Web.WebPages.OAuth.dll
@@ -39,6 +41,7 @@ F:\Project\Indexr\Indexr.Web\bin\Org.Mentalis.Security.Cryptography.dll
 F:\Project\Indexr\Indexr.Web\bin\Mono.Math.dll
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Core.pdb
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Data.pdb
+F:\Project\Indexr\Indexr.Web\bin\Indexr.DomainView.pdb
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Domain.pdb
 F:\Project\Indexr\Indexr.Web\bin\Indexr.Service.pdb
 F:\Project\Indexr\Indexr.Web\bin\Autofac.xml
@@ -66,6 +69,5 @@ F:\Project\Indexr\Indexr.Web\bin\Microsoft.Web.WebPages.OAuth.xml
 F:\Project\Indexr\Indexr.Web\bin\WebMatrix.WebData.xml
 F:\Project\Indexr\Indexr.Web\bin\Org.Mentalis.Security.Cryptography.xml
 F:\Project\Indexr\Indexr.Web\bin\Mono.Math.xml
-F:\Project\Indexr\Indexr.Web\obj\Debug\Indexr.Web.csprojResolveAssemblyReference.cache
 F:\Project\Indexr\Indexr.Web\obj\Debug\Indexr.Web.dll
 F:\Project\Indexr\Indexr.Web\obj\Debug\Indexr.Web.pdb

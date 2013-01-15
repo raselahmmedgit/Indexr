@@ -1,0 +1,86 @@
+﻿@model Indexr.DomainView.ContactInfoViewModel
+@using (Ajax.BeginForm("Edit", "Indexr", null,
+        new AjaxOptions
+        {
+            UpdateTargetId = "updateTargetId",
+            InsertionMode = InsertionMode.Replace,
+            HttpMethod = "POST",
+            OnSuccess = "AjaxSuccess",
+        }, new { @id = "editForm" }))
+{
+    <div id="indexrEditPage">
+        @Html.ValidationSummary(true)
+        <div id="updateTargetId" class="validation-summary-errors">
+        </div>
+        @Html.HiddenFor(m => m.ContactInfoId)
+        <div class="page-form">
+            <div class="col3">
+                <div class="photo-inner">
+                    <img src="/Content/Images/photo.jpg" alt="Profile Photo" />
+                </div>
+            </div>
+            <div class="col5 last">
+                <ul class="contact-info">
+                    <li>
+                        <label>
+                            First Name:</label><span>@Html.TextBoxFor(m => m.FirstName)</span><span>@Html.ValidationMessageFor(m => m.FirstName)</span></li>
+                    <li>
+                        <label>
+                            Last Name:</label><span>@Html.TextBoxFor(m => m.LastName)</span><span>@Html.ValidationMessageFor(m => m.LastName)</span></li>
+                    <li>
+                        <label>
+                            Date of birth:</label><span>@Html.TextBoxFor(m => m.DateOfBirth)</span><span>@Html.ValidationMessageFor(m => m.DateOfBirth)</span></li>
+                    <li>
+                        <label>
+                            Facebook:</label><span>@Html.TextBoxFor(m => m.FacebookProfile)</span><span>@Html.ValidationMessageFor(m => m.FacebookProfile)</span></li>
+                    <li>
+                        <label>
+                            Linkedin:</label><span>@Html.TextBoxFor(m => m.LinkedInProfile)</span><span>@Html.ValidationMessageFor(m => m.LinkedInProfile)</span></li>
+                    <li>
+                        <label>
+                            Google+:</label><span>@Html.TextBoxFor(m => m.GooglePlusProfile)</span><span>@Html.ValidationMessageFor(m => m.GooglePlusProfile)</span></li>
+                </ul>
+            </div>
+            <div class="divider">
+            </div>
+            <div class="col7">
+                <ul class="photo-upload">
+                    <li>
+                        <label>
+                            Photo:</label><span><input type="file" name="name" value=" " /></span><span>@Html.ValidationMessageFor(m => m.SmallImageUrl)</span></li>
+                </ul>
+                <div class="divider">
+                </div>
+                <ul class="contact-info">
+                    <li>
+                        <label>
+                            Sex:</label><span>@Html.TextBoxFor(m => m.Sex)</span><span>@Html.ValidationMessageFor(m => m.Sex)</span></li>
+                    <li>
+                        <label>
+                            Email:</label><span>@Html.TextBoxFor(m => m.Email)</span><span>@Html.ValidationMessageFor(m => m.Email)</span></li>
+                    <li>
+                        <label>
+                            Phone:</label><span>@Html.TextBoxFor(m => m.PhoneNumber)</span><span>@Html.ValidationMessageFor(m => m.PhoneNumber)</span></li>
+                    <li>
+                        <label>
+                            Mobile:</label><span>@Html.TextBoxFor(m => m.MobileNumber)</span><span>@Html.ValidationMessageFor(m => m.MobileNumber)</span></li>
+                    <li>
+                        <label>
+                            Alternative Mobile:</label><span>@Html.TextBoxFor(m => m.AlternativeMobileNumber)</span><span>@Html.ValidationMessageFor(m => m.AlternativeMobileNumber)</span></li>
+                    <li>
+                        <label>
+                            Present Address:</label><span>@Html.TextAreaFor(m => m.PresentAddress)</span><span>@Html.ValidationMessageFor(m => m.PresentAddress)</span></li>
+                    <li>
+                        <label>
+                            Permanent Address:</label><span>@Html.TextAreaFor(m => m.PermanentAddress)</span><span>@Html.ValidationMessageFor(m => m.PermanentAddress)</span></li>
+                    <li>
+                        <label>
+                            National ID Number:</label><span>@Html.TextBoxFor(m => m.NationalIdNumber)</span><span>@Html.ValidationMessageFor(m => m.NationalIdNumber)</span></li>
+                    <li>
+                        <label>
+                            Passport Number:</label><span>@Html.TextBoxFor(m => m.PassportNumber)</span><span>@Html.ValidationMessageFor(m => m.PassportNumber)</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,9 @@
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\Indexr.DomainView.dll
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\Indexr.DomainView.pdb
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\EntityFramework.dll
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\Indexr.Domain.dll
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\Indexr.Domain.pdb
+F:\Project\Indexr\Indexr.DomainView\bin\Debug\EntityFramework.xml
+F:\Project\Indexr\Indexr.DomainView\obj\Debug\Indexr.DomainView.csprojResolveAssemblyReference.cache
+F:\Project\Indexr\Indexr.DomainView\obj\Debug\Indexr.DomainView.dll
+F:\Project\Indexr\Indexr.DomainView\obj\Debug\Indexr.DomainView.pdb

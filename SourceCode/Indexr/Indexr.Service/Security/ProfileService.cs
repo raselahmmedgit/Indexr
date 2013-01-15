@@ -1,7 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/****************** Copyright Notice *****************
+ 
+This code is licensed under Microsoft Public License (Ms-PL). 
+You are free to use, modify and distribute any portion of this code. 
+The only requirement to do that, you need to keep the developer name, as provided below to recognize and encourage original work:
+
+=======================================================
+   
+Designed and Implemented By:
+Rasel Ahmmed
+Software Engineer, I Like .NET
+Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About Me: http://springsolution.net/about-me/
+   
+*******************************************************/
+
 using System.Linq;
-using System.Text;
 using Indexr.Data;
 using Indexr.Domain;
 
@@ -50,40 +62,40 @@ namespace Indexr.Service
 
         #region Create Method
 
-        public void Create(Profile profile)
+        public int Create(Profile profile)
         {
             _iProfileRepository.Insert(profile);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Update Method
 
-        public void Update(Profile profile)
+        public int Update(Profile profile)
         {
             _iProfileRepository.Update(profile);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Delete Method
 
-        public void Delete(Profile profile)
+        public int Delete(Profile profile)
         {
             var deleteProfile = GetProfile(profile.Id);
             _iProfileRepository.Delete(deleteProfile);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Save By Commit
 
-        public void Save()
+        public int Save()
         {
-            _iUnitOfWork.Commit();
+            return _iUnitOfWork.Commit();
         }
 
         #endregion

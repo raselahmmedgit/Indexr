@@ -1,32 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿/****************** Copyright Notice *****************
+ 
+This code is licensed under Microsoft Public License (Ms-PL). 
+You are free to use, modify and distribute any portion of this code. 
+The only requirement to do that, you need to keep the developer name, as provided below to recognize and encourage original work:
+
+=======================================================
+   
+Designed and Implemented By:
+Rasel Ahmmed
+Software Engineer, I Like .NET
+Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About Me: http://springsolution.net/about-me/
+   
+*******************************************************/
+
 using System.Web.Mvc;
 
 namespace Indexr.Web.Controllers
 {
+    //[System.Web.Mvc.OutputCache(NoStore = true, Duration = 0, VaryByParam = "*")]
     public class HomeController : Controller
     {
+        #region Global Variable Declaration
+
+        #endregion
+
+        #region Constructor
+
+        #endregion
+
+        #region Action Methods
+
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your app description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+        #endregion
 
-            return View();
-        }
+        #region Utility Methods
+
+        #endregion
+
     }
 }

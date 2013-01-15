@@ -1,23 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
+﻿/****************** Copyright Notice *****************
+ 
+This code is licensed under Microsoft Public License (Ms-PL). 
+You are free to use, modify and distribute any portion of this code. 
+The only requirement to do that, you need to keep the developer name, as provided below to recognize and encourage original work:
+
+=======================================================
+   
+Designed and Implemented By:
+Rasel Ahmmed
+Software Engineer, I Like .NET
+Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About Me: http://springsolution.net/about-me/
+   
+*******************************************************/
+
 using System.Linq;
-using System.Text;
 using Indexr.Data;
 using Indexr.Domain;
+using Indexr.DomainView;
 
 namespace Indexr.Service
 {
     public class ContactInfoService : IContactInfoService
     {
         #region Global Variable Declaration
-        
+
         private readonly IContactInfoRepository _iContactInfoRepository;
         private readonly IUnitOfWork _iUnitOfWork;
 
         #endregion
 
         #region Constructor
-        
+
         public ContactInfoService(IContactInfoRepository iContactInfoRepository, IUnitOfWork iUnitOfWork)
         {
             this._iContactInfoRepository = iContactInfoRepository;
@@ -28,62 +41,73 @@ namespace Indexr.Service
 
         #region Get Method
 
-        //public IQueryable<ContactInfo> GetContactInfos()
+        //public IQueryable<ContactInfoViewModel> GetContactInfos()
         //{
         //    var contactInfos = _iContactInfoRepository.GetAll();
-        //    return contactInfos.AsQueryable();
+        //    var contactInfoViewModel = contactInfos.Select(EmContactInfo.SetToViewModel).ToList<ContactInfoViewModel>();
+        //    return contactInfoViewModel.AsQueryable();
         //}
 
-        public ContactInfo GetContactInfo(int id)
+        public ContactInfoViewModel GetContactInfo(int id)
         {
             var contactInfo = _iContactInfoRepository.GetById(id);
-            return contactInfo;
+            var contactInfoViewModel = EmContactInfo.SetToViewModel(contactInfo);
+            return contactInfoViewModel;
         }
 
-        public IQueryable<ContactInfo> GetAll()
+        public IQueryable<ContactInfoViewModel> GetAll()
         {
             var contactInfos = _iContactInfoRepository.GetAll();
-            return contactInfos.AsQueryable();
+            var contactInfoViewModel = contactInfos.Select(EmContactInfo.SetToViewModel).ToList<ContactInfoViewModel>();
+            return contactInfoViewModel.AsQueryable();
         }
 
         #endregion
 
         #region Create Method
 
-        public void Create(ContactInfo contactInfo)
+        public int Create(ContactInfoViewModel contactInfoViewModel)
         {
+            var contactInfo = EmContactInfo.SetToModel(contactInfoViewModel);
             _iContactInfoRepository.Insert(contactInfo);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Update Method
-        
-        public void Update(ContactInfo contactInfo)
+
+        public int Update(ContactInfoViewModel contactInfoViewModel)
         {
+            var contactInfo = EmContactInfo.SetToModel(contactInfoViewModel);
             _iContactInfoRepository.Update(contactInfo);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Delete Method
 
-        public void Delete(ContactInfo contactInfo)
+        public int Delete(ContactInfoViewModel contactInfoViewModel)
         {
-            var deleteContactInfo = GetContactInfo(contactInfo.ContactInfoId);
-            _iContactInfoRepository.Delete(deleteContactInfo);
-            Save();
+            var deleteContactInfo = GetContactInfo(contactInfoViewModel.ContactInfoId);
+            var contactInfo = EmContactInfo.SetToModel(deleteContactInfo);
+            _iContactInfoRepository.Delete(contactInfo);
+            return Save();
         }
 
         #endregion
 
         #region Save By Commit
 
-        public void Save()
+        //public void Save()
+        //{
+        //    _iUnitOfWork.Commit();
+        //}
+
+        public int Save()
         {
-            _iUnitOfWork.Commit();
+            return _iUnitOfWork.Commit();
         }
 
         #endregion

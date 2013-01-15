@@ -59,6 +59,10 @@
       <Project>{4ED3D11F-421A-4209-A9AE-A4CF012D5EBF}</Project>
       <Name>Indexr.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Indexr.DomainView\Indexr.DomainView.csproj">
+      <Project>{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}</Project>
+      <Name>Indexr.DomainView</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Indexr.Domain\Indexr.Domain.csproj">
       <Project>{AD539C72-6C6B-41DE-BD2E-CD5ECB29C064}</Project>
       <Name>Indexr.Domain</Name>

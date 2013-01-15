@@ -169,17 +169,41 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BootStrapper.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
+    <Compile Include="Controllers\IndexrController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Helpers\Controller_Helpers\ControllerExtensions.cs" />
+    <Compile Include="Helpers\Controller_Helpers\ControllerHelper.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Helpers\ExceptionHelper.cs" />
+    <Compile Include="Helpers\Html_Helpers\HtmlConverter.cs" />
+    <Compile Include="Helpers\Html_Helpers\HtmlHelperExtensions.cs" />
+    <Compile Include="Helpers\LoggerHelper.cs" />
+    <Compile Include="Helpers\ObjectHelper.cs" />
+    <Compile Include="Helpers\StringHelper.cs" />
+    <Compile Include="Helpers\XElementExtensions.cs" />
+    <Compile Include="Models\AdminModels.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="apple-touch-icon.png" />
     <Content Include="App_Data\indexr_db.sdf" />
+    <Content Include="App_Themes\Default\first.theme.css" />
+    <Content Include="App_Themes\Default\images\facebook.png" />
+    <Content Include="App_Themes\Default\images\github.png" />
+    <Content Include="App_Themes\Default\images\googleplus.png" />
+    <Content Include="App_Themes\Default\images\linkedin.png" />
+    <Content Include="App_Themes\Default\images\photo-inner.png" />
+    <Content Include="App_Themes\Default\images\twitter.png" />
+    <Content Include="App_Themes\Default\main.css" />
+    <Content Include="App_Themes\Default\second.theme.css" />
+    <Content Include="App_Themes\Default\third.theme.css" />
+    <Content Include="Content\Images\photo.jpg" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -242,6 +266,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.tooltip.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\App\app-jq.js" />
     <Content Include="Scripts\jquery-1.8.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -264,40 +289,32 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Images\accent.png" />
-    <Content Include="Images\bullet.png" />
-    <Content Include="Images\heroAccent.png" />
-    <Content Include="Images\orderedList0.png" />
-    <Content Include="Images\orderedList1.png" />
-    <Content Include="Images\orderedList2.png" />
-    <Content Include="Images\orderedList3.png" />
-    <Content Include="Images\orderedList4.png" />
-    <Content Include="Images\orderedList5.png" />
-    <Content Include="Images\orderedList6.png" />
-    <Content Include="Images\orderedList7.png" />
-    <Content Include="Images\orderedList8.png" />
-    <Content Include="Images\orderedList9.png" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\_RemoveExternalLoginsPartial.cshtml" />
-    <Content Include="Views\Account\_SetPasswordPartial.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\Manage.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
+    <Content Include="Views\Admin\_ChangePasswordPartial.cshtml" />
+    <Content Include="Views\Admin\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Admin\_RemoveExternalLoginsPartial.cshtml" />
+    <Content Include="Views\Admin\_SetPasswordPartial.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\Manage.cshtml" />
+    <Content Include="Views\Admin\Register.cshtml" />
+    <Content Include="Views\Admin\ExternalLoginFailure.cshtml" />
+    <Content Include="Views\Admin\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="App_Browsers\" />
+    <Folder Include="App_GlobalResources\" />
+    <Folder Include="App_LocalResources\" />
+    <Folder Include="Content\App\" />
+    <Folder Include="Filters\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
@@ -310,6 +327,10 @@
       <Project>{4ED3D11F-421A-4209-A9AE-A4CF012D5EBF}</Project>
       <Name>Indexr.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Indexr.DomainView\Indexr.DomainView.csproj">
+      <Project>{0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1}</Project>
+      <Name>Indexr.DomainView</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Indexr.Domain\Indexr.Domain.csproj">
       <Project>{AD539C72-6C6B-41DE-BD2E-CD5ECB29C064}</Project>
       <Name>Indexr.Domain</Name>
@@ -318,6 +339,12 @@
       <Project>{D5EBE940-B1BC-4F34-9431-52A786A29902}</Project>
       <Name>Indexr.Service</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Indexr\_Add.cshtml" />
+    <Content Include="Views\Indexr\_Edit.cshtml" />
+    <Content Include="Views\Indexr\_Delete.cshtml" />
+    <Content Include="Views\Indexr\_Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

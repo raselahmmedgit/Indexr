@@ -1,0 +1,89 @@
+﻿/* *********************************************************************************************************************
+ * 7. Color themes, buttons, transition
+ */
+
+/* *****************************************************************************************************************
+	 * First Theme. Color is Green
+	 */
+
+/* Color1 - White */
+
+.page header, .page header a, .page .full.color3, .page .color2, .page footer ul.social a, .page .color1 .btn-small, .page .color1 .btn-big
+{
+    color: #fff !important; /* !important because footer icon color */
+}
+::selection
+{
+    color: #fff !important;
+}
+::-moz-selection
+{
+    /* has to be separated from ::selection */
+    color: #fff;
+}
+
+.page .color1, .page .color1 .arrow, .page .color1 .iconic > :first-child:before, .page .color1 .iconic:after, .page .color2 .btn-small:hover, .page .color2 .btn-big:hover, .page .color3 .btn-small:hover, .page .color3 .btn-big:hover, .page .color2 form input, .page .color2 form textarea
+{
+    background: #fff;
+}
+
+.page .color2 .iconic > :first-child:before, .page .color2 .iconic:before, .page .color3 .iconic > :first-child:before, .page .color3 .iconic:before, .page .color2 .iconic h1:after, .page .color2 .iconic h2:after, .page .color2 .iconic h3:after, .page .color2 .iconic h4:after, .page .color3 .iconic h1:after, .page .color3 .iconic h2:after, .page .color3 .iconic h3:after, .page .color2 .iconic h4:after
+{
+    border-color: #fff;
+}
+
+.page .color2 .iconic:after, .page header nav ul li a.sub:before, .page .color3 .iconic:after
+{
+    border-color: #fff transparent;
+}
+
+/* Color2 - Yellow */
+.page .color3 a, .page .color1 a, .page .color1 h1 span, .page .color3 h1 span, .page .color1 h2 span, .page .color3 h2 span, .page .color1 h3 span, .page .color3 h3 span, .page .color1 h4 span, .page .color3 h4 span, .page .color1 h5 span, .page .color3 h5 span, .page .color1 h6 span, .page .color3 h6 span, .page .color1 .tags a:hover, .page .color2 .btn-small, .page .color2 .btn-big, .page .color3 .iconic:before, .page .color1 ul.social a:hover
+{
+    color: #ef9e10;
+}
+
+.page header.color2, .page .color2, .page .color2 .arrow, .page .color2 .iconic > :first-child:before, .page .color2 .iconic:after, .page .color2 .iconic:after, .page .color1 .btn-small, .page .color1 .btn-big, .page .color3 .btn-small, .page .color3 .btn-big
+{
+    background: #ef9e10;
+}
+::selection
+{
+    background: #ef9e10;
+}
+::-moz-selection
+{
+    /* has to be separated from ::selection */
+    background: #ef9e10;
+}
+
+.page .color1 .iconic > :first-child:before, .page .color1 .iconic:before, .page .color1 .iconic h1:after, .page .color1 .iconic h2:after, .page .color1 .iconic h3:after, .page .color1 .iconic h4:after
+{
+    border-color: #ef9e10;
+}
+
+.page .color1 .iconic:after
+{
+    border-color: #ef9e10 transparent;
+}
+
+/* Color3 - Brown */
+body.page, .page .color2 a, .page header .title span, .page .color2 h1 span, .page .color2 h2 span, .page .color2 h3 span, .page .color2 h4 span, .page .color2 h5 span, .page .color2 h6 span, .page .color1 .iconic > :first-child:before, .page .color1 .tags a, .page .color3 .btn-small, .page .color3 .btn-big, .page .color2 .iconic:before, .page .color1 ul.social a
+{
+    color: #312a1e;
+}
+
+.page header nav ul li.active > a, .page header nav ul li a:hover, .page .full.color3, .page .color3 .arrow, .page .color3 .arrow, .page .color3 .iconic > :first-child:before, .page .color3 .iconic:after, .page footer ul.social a:hover, .page footer ul.social li.active a:hover, .page .color1 .btn-small:hover, .page .color1 .btn-big:hover, .page .color2 .btn-small, .page .color2 .btn-big
+{
+    background: #312a1e;
+}
+
+.page header, .page footer
+{
+    border-color: #312a1e;
+}
+
+.page header nav ul li a.sub:hover:before, .page header nav ul li.active > a:before
+{
+    border-color: #312a1e transparent;
+}

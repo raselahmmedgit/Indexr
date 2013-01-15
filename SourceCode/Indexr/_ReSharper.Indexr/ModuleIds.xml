@@ -5,4 +5,7 @@
   <Module PersistentId="26D169C2-28B3-4933-8A65-3C01CF187894" ModuleId="Indexr.Core" />
   <Module PersistentId="A842035A-8640-4A9E-AE26-2D24489D763A" ModuleId="Indexr.Web" />
   <Module PersistentId="EntityFramework, Version=4.4.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="EntityFramework" />
+  <Module PersistentId="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="1DD9A4E4-60DA-429C-ACCF-B22EF720D114" ModuleId="Indexr.Web.Tests" />
+  <Module PersistentId="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1" ModuleId="Indexr.DomainView" />
 </Modules>

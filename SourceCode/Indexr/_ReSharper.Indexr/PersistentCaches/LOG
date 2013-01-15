@@ -1,5 +1,5 @@
-2012/11/25-22:37:16.833 14c0 Recovering log #6
-2012/11/25-22:37:16.917 14c0 Level-0 table #8: started
-2012/11/25-22:37:16.965 14c0 Level-0 table #8: 104812 bytes OK
-2012/11/25-22:37:17.000 14c0 Delete type=0 #6
-2012/11/25-22:37:17.001 14c0 Delete type=3 #4
+2013/01/15-01:00:44.488 1fec Recovering log #96
+2013/01/15-01:00:44.532 1fec Level-0 table #99: started
+2013/01/15-01:00:44.619 1fec Level-0 table #99: 170520 bytes OK
+2013/01/15-01:00:44.684 1fec Delete type=0 #96
+2013/01/15-01:00:44.685 1fec Delete type=3 #94

@@ -1,7 +1,20 @@
-﻿using System;
+﻿/****************** Copyright Notice *****************
+ 
+This code is licensed under Microsoft Public License (Ms-PL). 
+You are free to use, modify and distribute any portion of this code. 
+The only requirement to do that, you need to keep the developer name, as provided below to recognize and encourage original work:
+
+=======================================================
+   
+Designed and Implemented By:
+Rasel Ahmmed
+Software Engineer, I Like .NET
+Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About Me: http://springsolution.net/about-me/
+   
+*******************************************************/
+
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Indexr.Data;
 using Indexr.Domain;
 
@@ -63,40 +76,40 @@ namespace Indexr.Service
 
         #region Create Method
 
-        public void Create(Role role)
+        public int Create(Role role)
         {
             _iRoleRepository.Insert(role);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Update Method
 
-        public void Update(Role role)
+        public int Update(Role role)
         {
             _iRoleRepository.Update(role);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Delete Method
 
-        public void Delete(Role role)
+        public int Delete(Role role)
         {
             var deleteRole = GetRole(role.RoleName);
             _iRoleRepository.Delete(deleteRole);
-            Save();
+            return Save();
         }
 
         #endregion
 
         #region Save By Commit
 
-        public void Save()
+        public int Save()
         {
-            _iUnitOfWork.Commit();
+            return _iUnitOfWork.Commit();
         }
 
         #endregion

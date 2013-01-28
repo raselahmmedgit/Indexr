@@ -4938,6 +4938,11 @@
               Looks up a localized string similar to DataContractSerializer could not be initialized on message type {0} because the DataContractAttribute.Namespace property is not set..
             </summary>
         </member>
+        <member name="P:DotNetOpenAuth.Messaging.MessagingStrings.DataCorruptionDetected">
+            <summary>
+              Looks up a localized string similar to Decoding failed due to data corruption..
+            </summary>
+        </member>
         <member name="P:DotNetOpenAuth.Messaging.MessagingStrings.DerivedTypeNotExpected">
             <summary>
               Looks up a localized string similar to An instance of type {0} was expected, but received unexpected derived type {1}..
@@ -5970,11 +5975,16 @@
             <param name="writer">The binary writer.</param>
             <param name="buffer">The buffer.</param>
         </member>
-        <member name="M:DotNetOpenAuth.Messaging.MessagingUtilities.ReadBuffer(System.IO.BinaryReader)">
+        <member name="M:DotNetOpenAuth.Messaging.MessagingUtilities.ReadBuffer(System.IO.BinaryReader,System.Int32)">
             <summary>
             Reads a buffer that is prefixed with its own length.
             </summary>
             <param name="reader">The binary reader positioned at the buffer length.</param>
+            <param name="maxBufferSize">
+            The maximum size of the buffer that should be permitted. 
+            Although the stream will indicate the size of the buffer, this mitigates data corruption
+            or DoS attacks causing the web server to allocate too much memory for a small data packet.
+            </param>
             <returns>The read buffer.</returns>
         </member>
         <member name="M:DotNetOpenAuth.Messaging.MessagingUtilities.CreateJsonObject(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,System.String}},System.Boolean)">

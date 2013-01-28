@@ -9,37 +9,40 @@ namespace Indexr.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-1.9.0.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
-                        "~/Scripts/jquery-ui-{version}.js"));
+                        "~/Scripts/jquery-ui-1.9.2.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.unobtrusive*",
-                        "~/Scripts/jquery.validate*"));
+                        "~/Scripts/jquery.validate.min.js",
+                        "~/Scripts/jquery.validate.unobtrusive.min.js",
+                        "~/Scripts/jquery.unobtrusive-ajax.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+                        "~/Scripts/modernizr-2.6.2.js"));
+
+            // Kendo UI JS Files
+            bundles.Add(new ScriptBundle("~/bundles/Kendo/js").Include(
+                        "~/Scripts/Kendo/kendo.web.min.js",
+                        "~/Scripts/Kendo/kendo..aspnetmvc.min.js"));
 
             // Application Default Theme CSS Files
             bundles.Add(new StyleBundle("~/App_Theme/Default/css").Include(
                         "~/App_Themes/Default/main.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
-                        "~/Content/themes/base/jquery.ui.core.css",
-                        "~/Content/themes/base/jquery.ui.resizable.css",
-                        "~/Content/themes/base/jquery.ui.selectable.css",
-                        "~/Content/themes/base/jquery.ui.accordion.css",
-                        "~/Content/themes/base/jquery.ui.autocomplete.css",
-                        "~/Content/themes/base/jquery.ui.button.css",
-                        "~/Content/themes/base/jquery.ui.dialog.css",
-                        "~/Content/themes/base/jquery.ui.slider.css",
-                        "~/Content/themes/base/jquery.ui.tabs.css",
-                        "~/Content/themes/base/jquery.ui.datepicker.css",
-                        "~/Content/themes/base/jquery.ui.progressbar.css",
-                        "~/Content/themes/base/jquery.ui.theme.css"));
+                        "~/Content/themes/base/jquery.ui.all.css"));
+
+            bundles.Add(new StyleBundle("~/Content/App/css").Include(
+                "~/Content/App/app.css"));
+
+            // Kendo UI CSS Files
+            bundles.Add(new StyleBundle("~/Content/Kendo/css").Include(
+                "~/Content/Kendo/kendo.common.min.css",
+                "~/Content/Kendo/kendo.default.min.css"));
         }
     }
 }

@@ -8,6 +8,32 @@
     <div class="divider">
     </div>
     <div id="indexrGridPane">
+        @(Html.Kendo().Grid<Indexr.DomainView.ContactInfoViewModel>()
+              .Name("indexrGrid")
+              .Columns(columns =>
+                           {
+                               columns.Bound(c => c.ContactInfoId).Groupable(false);
+                               columns.Bound(c => c.FullName);
+                               columns.Bound(p => p.Sex);
+                               columns.Bound(p => p.DateOfBirth);
+                               columns.Bound(p => p.Email);
+                               columns.Bound(p => p.PresentAddress);
+                               columns.Bound(p => p.PermanentAddress);
+                               columns.Bound(p => p.PhoneNumber);
+                               columns.Bound(p => p.MobileNumber);
+                               columns.Bound(p => p.NationalIdNumber);
+                               columns.Bound(p => p.PassportNumber);
+                               columns.Bound(c => c.ActionLink).Groupable(false).Sortable(false).Filterable(false).ClientTemplate("<a name='lnkDetailsIndexr' class='lnkDetailsIndexr btn-small' id='lnkDetailsIndexr_#= ContactInfoId #'  href='/Indexr/Details/#= ContactInfoId #' title='Details'>Details</a>&nbsp;&nbsp;<a name='lnkEditIndexr' class='lnkEditIndexr btn-small' id='lnkEditIndexr_#= ContactInfoId #'  href='/Indexr/Edit/#= ContactInfoId #' title='Edit'>Edit</a>&nbsp;&nbsp;<a name='lnkDeleteIndexr' class='lnkDeleteIndexr btn-small' id='lnkDeleteIndexr_#= ContactInfoId #' href='/Indexr/Delete/#= ContactInfoId #' title='Delete'>Delete</a>").HeaderTemplate("Actions").Width("300px"); ;
+                           }).Groupable().Resizable(resize => resize.Columns(true)).Pageable(pager => pager.Input(true).Numeric(true).Info(true).PreviousNext(true).Refresh(true).PageSizes(true)).Sortable().Scrollable().Filterable().DataSource(dataSource => dataSource.Ajax().Read(read => read.Action("IndexrRead", "Indexr")))
+              )
+    </div>
+    <div id="addIndexrDialog" title="Add">
+    </div>
+    <div id="editIndexrDialog" title="Edit">
+    </div>
+    <div id="deleteIndexrDailog" title="Delete">
+    </div>
+    <div id="detailsIndexrDialog" title="Details">
     </div>
 </div>
 @section myTweets

@@ -5,8 +5,8 @@
             UpdateTargetId = "updateTargetId",
             InsertionMode = InsertionMode.Replace,
             HttpMethod = "POST",
-            OnSuccess = "AjaxSuccess",
-        }, new { @id = "editForm" }))
+            OnSuccess = "EditIndexrSuccess",
+        }, new { @id = "editIndexrForm" }))
 {
     <div id="indexrEditPage">
         @Html.ValidationSummary(true)
@@ -14,7 +14,7 @@
         </div>
         @Html.HiddenFor(m => m.ContactInfoId)
         <div class="page-form">
-            <div class="col3">
+            <div class="col5">
                 <div class="photo-inner">
                     <img src="/Content/Images/photo.jpg" alt="Profile Photo" />
                 </div>

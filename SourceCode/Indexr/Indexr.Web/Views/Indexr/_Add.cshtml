@@ -5,15 +5,15 @@
             UpdateTargetId = "updateTargetId",
             InsertionMode = InsertionMode.Replace,
             HttpMethod = "POST",
-            OnSuccess = "AjaxSuccess",
-        }, new { @id = "addForm" }))
+            OnSuccess = "AddIndexrSuccess",
+        }, new { @id = "addIndexrForm" }))
 {
     <div id="indexrAddPage">
         @Html.ValidationSummary(true)
         <div id="updateTargetId" class="validation-summary-errors">
         </div>
         <div class="page-form">
-            <div class="col3">
+            <div class="col5">
                 <div class="photo-inner">
                     <img src="/Content/Images/photo.jpg" alt="Profile Photo" />
                 </div>

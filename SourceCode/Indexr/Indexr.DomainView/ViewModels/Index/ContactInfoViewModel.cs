@@ -20,7 +20,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Indexr.DomainView
 {
-    public class ContactInfoViewModel
+    public class ContactInfoViewModel : BaseViewModel
     {
         [Key]
         public int ContactInfoId { get; set; }

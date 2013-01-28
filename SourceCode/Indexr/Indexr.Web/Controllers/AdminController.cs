@@ -23,7 +23,7 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using Indexr.Web.Models;
+using Indexr.DomainView;
 using Indexr.Service;
 
 namespace Indexr.Web.Controllers
@@ -68,7 +68,7 @@ namespace Indexr.Web.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(LoginModel model, string returnUrl)
+        public ActionResult Login(LoginViewModel model, string returnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -121,7 +121,7 @@ namespace Indexr.Web.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult Register(RegisterModel model)
+        public ActionResult Register(RegisterViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -191,7 +191,7 @@ namespace Indexr.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Manage(LocalPasswordModel model)
+        public ActionResult Manage(LocalPasswordViewModel model)
         {
             bool hasLocalAccount = OAuthWebSecurity.HasLocalAccount(WebSecurity.GetUserId(User.Identity.Name));
             ViewBag.HasLocalPassword = hasLocalAccount;
@@ -289,7 +289,7 @@ namespace Indexr.Web.Controllers
                 string loginData = OAuthWebSecurity.SerializeProviderUserId(result.Provider, result.ProviderUserId);
                 ViewBag.ProviderDisplayName = OAuthWebSecurity.GetOAuthClientData(result.Provider).DisplayName;
                 ViewBag.ReturnUrl = returnUrl;
-                return View("ExternalLoginConfirmation", new RegisterExternalLoginModel { UserName = result.UserName, ExternalLoginData = loginData });
+                return View("ExternalLoginConfirmation", new RegisterExternalLoginViewModel { UserName = result.UserName, ExternalLoginData = loginData });
             }
         }
 
@@ -299,7 +299,7 @@ namespace Indexr.Web.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public ActionResult ExternalLoginConfirmation(RegisterExternalLoginModel model, string returnUrl)
+        public ActionResult ExternalLoginConfirmation(RegisterExternalLoginViewModel model, string returnUrl)
         {
             string provider = null;
             string providerUserId = null;
@@ -360,12 +360,12 @@ namespace Indexr.Web.Controllers
         public ActionResult RemoveExternalLogins()
         {
             ICollection<OAuthAccount> accounts = OAuthWebSecurity.GetAccountsFromUserName(User.Identity.Name);
-            List<ExternalLogin> externalLogins = new List<ExternalLogin>();
+            List<ExternalLoginViewModel> externalLogins = new List<ExternalLoginViewModel>();
             foreach (OAuthAccount account in accounts)
             {
                 AuthenticationClientData clientData = OAuthWebSecurity.GetOAuthClientData(account.Provider);
 
-                externalLogins.Add(new ExternalLogin
+                externalLogins.Add(new ExternalLoginViewModel
                 {
                     Provider = account.Provider,
                     ProviderDisplayName = clientData.DisplayName,

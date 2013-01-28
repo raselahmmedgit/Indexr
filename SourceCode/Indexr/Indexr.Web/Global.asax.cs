@@ -21,8 +21,8 @@ namespace Indexr.Web
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
-            AuthConfig.RegisterAuth();
+            //BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //AuthConfig.RegisterAuth();
 
             BootStrapper.Run();
         }

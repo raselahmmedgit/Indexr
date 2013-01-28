@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using Indexr.Domain;
 using Indexr.DomainView;
 using Indexr.Service;
+using Kendo.Mvc.Extensions;
+using Kendo.Mvc.UI;
 
 namespace Indexr.Web.Controllers
 {
@@ -29,6 +31,12 @@ namespace Indexr.Web.Controllers
 
         #region Action Methods
 
+        //IndexrRead
+        public JsonResult IndexrRead([DataSourceRequest] DataSourceRequest request)
+        {
+            return Json(GetData().ToDataSourceResult(request));
+        }
+
         public ActionResult Details(int id)
         {
             //return View();
@@ -38,8 +46,8 @@ namespace Indexr.Web.Controllers
         public ActionResult Add()
         {
             //return View();
-            //return PartialView("_Add");
-            return View("_Add");
+            return PartialView("_Add");
+            //return View("_Add");
         }
 
         [HttpPost]

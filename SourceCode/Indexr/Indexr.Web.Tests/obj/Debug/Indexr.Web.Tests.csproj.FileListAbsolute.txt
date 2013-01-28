@@ -1,4 +1,3 @@
-F:\Project\Indexr\Indexr.Web.Tests\obj\Debug\Indexr.Web.Tests.csprojResolveAssemblyReference.cache
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Indexr.Web.Tests.dll.config
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Indexr.Web.Tests.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Indexr.Web.Tests.pdb
@@ -17,6 +16,7 @@ F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\System.Web.WebPages.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Indexr.Service.dll
+F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Kendo.Mvc.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Indexr.DomainView.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\System.Web.Optimization.dll
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Microsoft.Web.WebPages.OAuth.dll
@@ -61,5 +61,6 @@ F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\DotNetOpenAuth.OpenId.RelyingParty.
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\DotNetOpenAuth.OpenId.xml
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Org.Mentalis.Security.Cryptography.xml
 F:\Project\Indexr\Indexr.Web.Tests\bin\Debug\Mono.Math.xml
+F:\Project\Indexr\Indexr.Web.Tests\obj\Debug\Indexr.Web.Tests.csprojResolveAssemblyReference.cache
 F:\Project\Indexr\Indexr.Web.Tests\obj\Debug\Indexr.Web.Tests.dll
 F:\Project\Indexr\Indexr.Web.Tests\obj\Debug\Indexr.Web.Tests.pdb

@@ -5,8 +5,8 @@
             UpdateTargetId = "updateTargetId",
             InsertionMode = InsertionMode.Replace,
             HttpMethod = "POST",
-            OnSuccess = "AjaxSuccess",
-        }, new { @id = "deleteForm" }))
+            OnSuccess = "DeleteIndexrSuccess",
+        }, new { @id = "deleteIndexrForm" }))
 {
     <div id="indexrDeletePage">
         @Html.ValidationSummary(true)

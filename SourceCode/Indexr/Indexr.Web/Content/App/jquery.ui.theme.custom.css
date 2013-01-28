@@ -1,0 +1,4 @@
+﻿.ui-widget-content { border: 1px solid #4C5766 !important/*{borderColorContent}*/; background: #4C5766 !important/*{bgColorContent}*/; color: #222222 !important/*{fcContent}*/; }
+.ui-widget-header { border: 1px solid #EF9E09 !important/*{borderColorHeader}*/; background: #EF9E10 !important/*{bgColorHeader}*/; color: #ffffff !important/*{fcHeader}*/; font-weight: bold; }
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { border: 1px solid #EF9E09 !important/*{borderColorDefault}*/; background: none repeat scroll 0 0 #EF9E10 !important/*{bgColorDefault}*/; color: #ffffff !important/*{fcDefault}*/; }
+.ui-widget-header .ui-icon {background-image: url(images/ui-icons_222222_256x240.png) !important/*{iconsHeader}*/; }

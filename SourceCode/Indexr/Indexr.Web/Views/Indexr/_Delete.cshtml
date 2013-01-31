@@ -9,12 +9,16 @@
         }, new { @id = "deleteIndexrForm" }))
 {
     <div id="indexrDeletePage">
-        @Html.ValidationSummary(true)
-        <div id="updateTargetId" class="validation-summary-errors">
-        </div>
-        @Html.HiddenFor(m => m.ContactInfoId)
-        <div class="col3">
-            Do you want to delete this?
+        <div class="page-form">
+            <div class="col12">
+                @Html.ValidationSummary(true)
+                <div id="updateTargetId" class="validation-summary-errors">
+                </div>
+                @Html.HiddenFor(m => m.ContactInfoId)
+                <div class="left">
+                    Do you want to delete this?
+                </div>
+            </div>
         </div>
     </div>
 }

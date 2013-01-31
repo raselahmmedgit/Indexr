@@ -91,7 +91,7 @@ $(document).ready(function () {
 
     $("#addIndexrDialog").dialog({
         autoOpen: false,
-        width: 650,
+        width: 680,
         resizable: false,
         modal: true,
         buttons: {
@@ -135,7 +135,7 @@ $(document).ready(function () {
     //edit Index
     $("#editIndexrDialog").dialog({
         autoOpen: false,
-        width: 750,
+        width: 680,
         resizable: false,
         closeOnEscape: false,
         modal: true,
@@ -182,7 +182,7 @@ $(document).ready(function () {
     //delete Index
     $("#deleteIndexrDailog").dialog({
         autoOpen: false,
-        width: 750,
+        width: 450,
         resizable: false,
         modal: true,
         buttons: {
@@ -224,7 +224,7 @@ $(document).ready(function () {
     //For details Index
     $("#detailsIndexrDialog").dialog({
         autoOpen: false,
-        width: 750,
+        width: 680,
         resizable: false,
         modal: true,
         buttons: {

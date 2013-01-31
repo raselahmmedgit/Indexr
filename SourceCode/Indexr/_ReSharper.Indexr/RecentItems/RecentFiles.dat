@@ -1,9 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:ViewModels/d:Security/f:ExternalLoginViewModel.cs" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:AdminController.cs" caret="16166" fromTop="107" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Web.config" caret="2782" fromTop="9" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/f:Web.config" caret="1285" fromTop="10" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:app.css" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:Kendo/f:kendo.default.min.css" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/d:Kendo/f:jquery.min.js" caret="0" fromTop="0" />
@@ -19,21 +15,23 @@
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/f:jquery-1.9.0.min.js" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.base.css" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.dialog.css" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Details.cshtml" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="622" fromTop="4" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="571" fromTop="12" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.all.css" caret="269" fromTop="11" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/d:App/f:app-jq.js" caret="7003" fromTop="145" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="1609" fromTop="7" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.theme.css" caret="1517" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="606" fromTop="2" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:IndexrController.cs" caret="913" fromTop="10" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:IndexrController.cs" caret="772" fromTop="6" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/d:App/f:app-jq.js" caret="2794" fromTop="9" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Themes/d:Default/f:first.theme.css" caret="571" fromTop="13" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="699" fromTop="14" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Details.cshtml" caret="81" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="606" fromTop="3" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="3300" fromTop="15" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.button.css" caret="841" fromTop="8" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="1433" fromTop="8" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.theme.css" caret="730" fromTop="3" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Themes/d:Default/f:main.css" caret="15272" fromTop="7" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="1054" fromTop="6" />
   </RecentFiles>
   <RecentEdits>
-    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:UserService.cs" caret="2211" fromTop="7" />
-    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:ProfileService.cs" caret="1904" fromTop="5" />
     <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IUserService.cs" caret="942" fromTop="11" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:ExceptionHelper.cs" caret="687" fromTop="8" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Controller_Helpers/f:ControllerExtensions.cs" caret="650" fromTop="14" />
@@ -54,13 +52,15 @@
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Global.asax.cs" caret="808" fromTop="11" />
     <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:Base/f:BaseViewModel.cs" caret="846" fromTop="1" />
     <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:ViewModels/d:Index/f:ContactInfoViewModel.cs" caret="883" fromTop="13" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="311" fromTop="7" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Home/f:Index.cshtml" caret="2634" fromTop="10" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:IndexrController.cs" caret="1226" fromTop="11" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="571" fromTop="12" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="622" fromTop="4" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="1609" fromTop="7" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/d:App/f:app-jq.js" caret="7003" fromTop="7" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="606" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/d:App/f:app-jq.js" caret="2794" fromTop="9" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="4157" fromTop="2" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Details.cshtml" caret="3433" fromTop="6" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="699" fromTop="14" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="1433" fromTop="8" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="1054" fromTop="6" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Themes/d:Default/f:main.css" caret="15272" fromTop="7" />
   </RecentEdits>
 </RecentFiles>

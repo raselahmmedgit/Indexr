@@ -13,6 +13,7 @@ Twitter: http://twitter.com/raselbappi | Blog: http://springsolution.net | About
    
 *******************************************************/
 
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using Indexr.Domain;
@@ -92,6 +93,8 @@ namespace Indexr.Data
 
             roles.ForEach(r => context.Roles.Add(r));
 
+            context.SaveChanges();
+
             // Create some users.
             CreateUserWithRole("Rasel", "@123456", "raselahmmed@gmail.com", "Admin", context);
             CreateUserWithRole("Ahmmed", "@123456", "raselahmmed@gmail.com", "Admin", context);
@@ -99,9 +102,26 @@ namespace Indexr.Data
             CreateUserWithRole("Shafin", "@123456", "shafin@gmail.com", "User", context);
             CreateUserWithRole("Tulika", "@123456", "tulika@gmail.com", "User", context);
 
+            context.SaveChanges();
 
-            // will add more testdata soon
+            // Create some Contact Person Information
+            var contactInfos = new List<ContactInfo>
+                            {
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"},
+                                new ContactInfo {FirstName = "Rasel",LastName = "Ahmmed",Sex = 1,DateOfBirth =  DateTime.Now,Email = "rasel@mail.com",PresentAddress = "Cantorment, Dhaka-1206.",PermanentAddress = "Sonargoan, Narrayoagoaj.",PhoneNumber = "+8802-9876543",MobileNumber = "+8802-01911123456",AlternativeMobileNumber = "+8802-01711123456",FacebookProfile = "rasel.ahmmed.bappi",LinkedInProfile = "raselahmmedbappi",GooglePlusProfile = "raselahmmed",NationalIdNumber = "0123456789",PassportNumber = "987654321",ThumbImageUrl = "/Images/rasel-thumb.png",SmallImageUrl = "/Images/rasel-small.png"}
+                            };
 
+            contactInfos.ForEach(c => context.ContactInfos.Add(c));
+
+            context.SaveChanges();
         }
     }
 

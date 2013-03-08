@@ -186,6 +186,7 @@
     <Compile Include="Helpers\Html_Helpers\HtmlHelperExtensions.cs" />
     <Compile Include="Helpers\LoggerHelper.cs" />
     <Compile Include="Helpers\ObjectHelper.cs" />
+    <Compile Include="Helpers\SelectListItemExtension.cs" />
     <Compile Include="Helpers\StringHelper.cs" />
     <Compile Include="Helpers\XElementExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,7 +1,5 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:BundleConfig.cs" caret="292" fromTop="0" />
-    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:Base/f:BaseViewModel.cs" caret="769" fromTop="7" />
     <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:ViewModels/d:Index/f:ContactInfoViewModel.cs" caret="883" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/f:jquery-1.9.0.min.map" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Scripts/f:jquery-1.9.0.min.js" caret="0" fromTop="0" />
@@ -13,12 +11,10 @@
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="699" fromTop="14" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Details.cshtml" caret="81" fromTop="2" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="606" fromTop="3" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="3300" fromTop="15" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.button.css" caret="841" fromTop="8" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="1433" fromTop="8" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.theme.css" caret="730" fromTop="3" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Themes/d:Default/f:main.css" caret="15272" fromTop="7" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="0" fromTop="0" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:HomeController.cs" caret="1054" fromTop="6" />
     <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:ContactInfoService.cs" caret="2133" fromTop="10" />
     <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:RepositoryBase.cs" caret="2416" fromTop="12" />
@@ -27,7 +23,13 @@
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:XElementExtensions.cs" caret="691" fromTop="8" />
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:SelectListItemExtension.cs" caret="886" fromTop="12" />
     <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/f:AppDbContext.cs" caret="3484" fromTop="14" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Home/f:Index.cshtml" caret="718" fromTop="8" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Home/f:Index.cshtml" caret="0" fromTop="0" />
+    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:ModelMappers/d:Index/f:EmContactInfo.cs" caret="834" fromTop="3" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Index/f:ContactInfoRepository.cs" caret="0" fromTop="0" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:IContactInfoService.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:Add.cshtml" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Controller_Helpers/f:ControllerHelper.cs" caret="650" fromTop="14" />

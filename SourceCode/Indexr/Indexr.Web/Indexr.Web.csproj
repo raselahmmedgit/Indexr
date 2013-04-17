@@ -917,6 +917,10 @@
     <None Include="Content\Kendo\images\KendoUI.ttf" />
     <None Include="Content\Kendo\images\KendoUI.woff" />
     <None Include="Scripts\jquery-1.9.0.min.map" />
+    <Content Include="Views\Indexr\Add.cshtml" />
+    <Content Include="Views\Indexr\Edit.cshtml" />
+    <Content Include="Views\Indexr\Delete.cshtml" />
+    <Content Include="Views\Indexr\Details.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

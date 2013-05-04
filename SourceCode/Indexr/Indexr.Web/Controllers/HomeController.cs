@@ -18,7 +18,7 @@ using System.Web.Mvc;
 namespace Indexr.Web.Controllers
 {
     //[System.Web.Mvc.OutputCache(NoStore = true, Duration = 0, VaryByParam = "*")]
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         #region Global Variable Declaration
 

@@ -30,7 +30,7 @@ namespace Indexr.Web.Controllers
 {
     [Authorize]
     //[System.Web.Mvc.OutputCache(NoStore = true, Duration = 0, VaryByParam = "*")]
-    public class AdminController : Controller
+    public class AdminController : BaseController
     {
         #region Global Variable Declaration
 

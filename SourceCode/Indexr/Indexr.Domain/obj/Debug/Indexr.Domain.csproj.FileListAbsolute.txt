@@ -3,6 +3,6 @@ F:\Project\Indexr\Indexr.Domain\bin\Debug\Indexr.Domain.dll
 F:\Project\Indexr\Indexr.Domain\bin\Debug\Indexr.Domain.pdb
 F:\Project\Indexr\Indexr.Domain\bin\Debug\EntityFramework.dll
 F:\Project\Indexr\Indexr.Domain\bin\Debug\EntityFramework.xml
+F:\Project\Indexr\Indexr.Domain\obj\Debug\Indexr.Domain.csprojResolveAssemblyReference.cache
 F:\Project\Indexr\Indexr.Domain\obj\Debug\Indexr.Domain.dll
 F:\Project\Indexr\Indexr.Domain\obj\Debug\Indexr.Domain.pdb
-F:\Project\Indexr\Indexr.Domain\obj\Debug\Indexr.Domain.csprojResolveAssemblyReference.cache

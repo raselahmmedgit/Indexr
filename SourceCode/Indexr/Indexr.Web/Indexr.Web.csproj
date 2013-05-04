@@ -173,6 +173,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="BootStrapper.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IndexrController.cs" />
     <Compile Include="Global.asax.cs">

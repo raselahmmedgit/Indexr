@@ -1,34 +1,33 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Delete.cshtml" caret="699" fromTop="14" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Details.cshtml" caret="81" fromTop="2" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Edit.cshtml" caret="606" fromTop="3" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.button.css" caret="841" fromTop="8" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:App/f:jquery.ui.theme.custom.css" caret="1433" fromTop="8" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Content/d:themes/d:base/f:jquery.ui.theme.css" caret="730" fromTop="3" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Themes/d:Default/f:main.css" caret="15272" fromTop="7" />
-    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:RepositoryBase.cs" caret="2416" fromTop="12" />
-    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Models/d:Index/f:ContactInfo.cs" caret="3719" fromTop="15" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:XElementExtensions.cs" caret="691" fromTop="8" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:SelectListItemExtension.cs" caret="886" fromTop="12" />
-    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/f:AppDbContext.cs" caret="3484" fromTop="14" />
-    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:ModelMappers/d:Index/f:EmContactInfo.cs" caret="834" fromTop="3" />
-    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Index/f:ContactInfoRepository.cs" caret="0" fromTop="0" />
-    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:Base/f:BaseViewModel.cs" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:Add.cshtml" caret="2923" fromTop="57" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Indexr/f:_Add.cshtml" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Views/d:Home/f:Index.cshtml" caret="2374" fromTop="27" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:ExceptionHelper.cs" caret="2342" fromTop="11" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:BootStrapper.cs" caret="1180" fromTop="3" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:AdminController.cs" caret="4136" fromTop="0" />
-    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:IContactInfoService.cs" caret="0" fromTop="0" />
-    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Index/f:ContactInfoService.cs" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:LoggerHelper.cs" caret="988" fromTop="10" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:BaseController.cs" caret="2276" fromTop="24" />
-    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:UserRepository.cs" caret="0" fromTop="0" />
-    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:IndexrController.cs" caret="8848" fromTop="0" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:IUnitOfWork.cs" caret="678" fromTop="11" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:RepositoryBase.cs" caret="829" fromTop="9" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Infrastructure/f:UnitOfWork.cs" caret="678" fromTop="11" />
+    <File id="4ED3D11F-421A-4209-A9AE-A4CF012D5EBF/d:Repositories/d:Security/f:UserRepository.cs" caret="590" fromTop="0" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Models/d:Security/f:User.cs" caret="778" fromTop="9" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Models/d:Security/f:Role.cs" caret="763" fromTop="11" />
+    <File id="AD539C72-6C6B-41DE-BD2E-CD5ECB29C064/d:Models/d:Security/f:Profile.cs" caret="743" fromTop="8" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:UserService.cs" caret="1354" fromTop="18" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Security/f:IUserService.cs" caret="1164" fromTop="13" />
+    <File id="D5EBE940-B1BC-4F34-9431-52A786A29902/d:Base/f:IGeneric.cs" caret="980" fromTop="12" />
+    <File id="0D7C803C-9C12-4AA1-AF48-1E9CB2C3F0E1/d:Base/f:BaseViewModel.cs" caret="797" fromTop="9" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:StringHelper.cs" caret="707" fromTop="10" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:SelectListItemExtension.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:ObjectHelper.cs" caret="752" fromTop="12" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:LoggerHelper.cs" caret="731" fromTop="9" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:Enums.cs" caret="681" fromTop="17" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Html_Helpers/f:HtmlConverter.cs" caret="733" fromTop="17" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Html_Helpers/f:HtmlHelperExtensions.cs" caret="734" fromTop="12" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Controller_Helpers/f:ControllerHelper.cs" caret="735" fromTop="3" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Controller_Helpers/f:ControllerExtensions.cs" caret="702" fromTop="19" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:RouteConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:App_Start/f:FilterConfig.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:XElementExtensions.cs" caret="760" fromTop="5" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/f:ExceptionHelper.cs" caret="650" fromTop="14" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Web.config" caret="1370" fromTop="17" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:BootStrapper.cs" caret="1143" fromTop="5" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/f:Global.asax.cs" caret="0" fromTop="0" />
+    <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Controllers/f:AdminController.cs" caret="15396" fromTop="8" />
   </RecentFiles>
   <RecentEdits>
     <File id="A842035A-8640-4A9E-AE26-2D24489D763A/d:Helpers/d:Html_Helpers/f:HtmlConverter.cs" caret="648" fromTop="13" />
